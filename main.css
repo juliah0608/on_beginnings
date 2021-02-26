@@ -1,14 +1,13 @@
 #grad1 {
-  height: 4000px;
+  height: 8000px;
   width:2000px;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, white, darkgreen, black);
 }
 
 h1 {
-	font-family: monospace;
+	font-style: monospace;
 	font-size: 200px;
-	color: darkgreen;
 }
 
 span {

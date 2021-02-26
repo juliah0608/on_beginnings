@@ -31,7 +31,7 @@ p {
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 500px) {
- p {
+   p {
     font-size: 30px;
 
   }

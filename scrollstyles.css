@@ -1,19 +1,38 @@
-::-webkit-scrollbar {
-  width: 10px;
+.scrolling {
+  font-size: 9rem;
+  font-family: monospace;
+  line-height: 8rem;
+  padding-top: 25rem;
+  padding-bottom: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.leftscroll{
+  animation: left-scroll 15s linear infinite;
+
+   -moz-transform:translateX(50%);
+  -webkit-transform:translateX(50%); 
+  transform:translateX(50%);
+  -moz-animation: left-scroll 10s linear infinite alternate;
+  -webkit-animation: left-scroll 10s linear infinite alternate;
+  animation: left-scroll 10s linear infinite alternate;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+@keyframes left-scroll {
+            0% {transform: translateX(100%);}
+            100% {transform: translateX(-100%);} }
+        
+        @-webkit-keyframes left-scroll {
+            0% {-webkit-transform: translateX(100%); }
+            100% {-webkit-transform: translateX(-100%);} }
+        
+        @keyframes left-scroll {
+            0% {
+                transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%); }
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%); }
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #08fc08;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-

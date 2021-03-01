@@ -5,17 +5,40 @@
   background-image: linear-gradient(to bottom, white, darkgreen, black);
 }
 
-header {
-  font-size: 2rem;
-  font-family: monospace;
-  font-style: normal;
-  text-align: center;
-  position: fixed;
-  padding-top: .2rem;
-  top: 0;
- 
-
+#fade-in {
+    animation: fadeIn ease 5s;
 }
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #08fc08;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
 
 h1 {
 	font-family: monospace;

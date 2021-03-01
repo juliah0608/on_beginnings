@@ -46,8 +46,9 @@ h1 {
 }
 
 span {
-	font-size: 12px;
+	font-size: 30px;
 	font-family: monospace;
+  font-style: bold;
 }
 
 

@@ -5,6 +5,18 @@
   background-image: linear-gradient(to bottom, white, darkgreen, black);
 }
 
+header {
+  font-size: 2rem;
+  font-family: monospace;
+  font-style: normal;
+  text-align: center;
+  position: fixed;
+  padding-top: .2rem;
+  top: 0;
+ 
+
+}
+
 h1 {
 	font-family: monospace;
 	font-size: 200px;

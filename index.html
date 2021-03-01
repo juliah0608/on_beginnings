@@ -7,6 +7,17 @@
 	<title> On Beginnings </title>
 	<link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="scrollstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").hide();
+  });
+  $(".btn2").click(function(){
+    $("p").show();
+  });
+});
+</script>
     <style>
         ::-webkit-scrollbar {
             width: 10px;
@@ -43,6 +54,9 @@
  	<p> <span style="color:#FF0000"> < p > </span> </p>
  	<p class="leftscroll"> <span style="color:#FF0000"> < p > </span> </p>
     <p class= "em-wider"> In poetry, the number of beginnings so far exceeds the number of endings that we cannot even conceive of it. Not every poem is finished—-one poem is abandoned, another catches fire and is carried away by the wind, which may be an ending, but it is the ending of a poem without an end. </p>
+    <button class="btn1">Hide</button>
+    <button class="btn2">Show</button>
+
     <p class="leftscroll"> <span style="color:#FF0000"> < p > </span> </p>
     <p> <span style="color:#FF0000"> < p > </span> </p>
     <p class="leftscroll"> <span style="color:#FF0000"> < p > </span> </p>

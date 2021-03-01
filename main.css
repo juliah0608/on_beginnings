@@ -53,8 +53,9 @@ span {
 
 
 
-.em-wider   { letter-spacing: 1em; 
-  text-decoration-color: #ffffff;
+.em-wider   { 
+  letter-spacing: 1em; 
+  color: white;
 
 }
 

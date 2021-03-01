@@ -76,6 +76,13 @@ span {
     font-family: monospace;
 
   }
+  p.em-wider {
+    font-size: 12px;
+    font-family: monospace;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+  }
 
   div#header {
     height: 93px;
